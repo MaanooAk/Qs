@@ -1,7 +1,7 @@
 # Qs
 A light JavaScript function library
 
-[Functions](#functions) | [Files](#files) | [Usage](#usage) | 
+[Functions](#functions) | [Files](#files) | [Usage](#usage) | [Qs.min.js raw](https://raw.githubusercontent.com/MaanooAk/Qs/master/Qs.min.js)
 
 ## Functions
 
