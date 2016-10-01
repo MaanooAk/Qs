@@ -53,6 +53,12 @@ elementFromHtml | html | Creates an element from a string
 onEnter | element, function() | Calls the functions when the Enter key is pressed
 onScrollNearEnd | limit, function() | Calls the functions when there are less than `limit` pixel left to scroll
 
+### Notes
+
+* In the query functions the the CSS selectors are be used, eg. `q("#side > img")`, `qa(".item")` and `qaff(".item.hidden", function(i) {...})`.
+* The `params` parameters in the request functions are objects, eg. `{name:"maanoo", color:"red"}`, `{json:"", count:"12"}` and `{}` (they will be stringified into `name=maanoo&color=red`, `json&count=12` and empty string). 
+* In the `callback` functions the `text` variable contains the response text and the `code` variable the response code.
+
 ## Files
 
 File | Description
@@ -73,6 +79,6 @@ For faster loading you can paste the content of the [Qs.min.js](/Qs.min.js) insi
 
 ```HTML
 <script type="application/javascript">
-<!-- paset here -->
+<!-- paste here -->
 </script>
 ```
