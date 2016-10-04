@@ -64,7 +64,7 @@ onScrollNearEnd | limit, function() | Calls the functions when there are less th
 File | Description
 ---- | ----
 [Qs.js](/Qs.js) | The library
-[Qs.min.js](/Qs.min.js) | The library compressed with [Closure Compiler](https://closure-compiler.appspot.com/)
+[Qs.min.js](/Qs.min.js) | The library compressed with [Closure Compiler](https://closure-compiler.appspot.com/) ([Compress now](https://closure-compiler.appspot.com/home#code%3D%252F%252F%2520%253D%253DClosureCompiler%253D%253D%250A%252F%252F%2520%2540compilation_level%2520SIMPLE_OPTIMIZATIONS%250A%252F%252F%2520%2540output_file_name%2520default.js%250A%252F%252F%2520%2540code_url%2520https%253A%252F%252Fraw.githubusercontent.com%252FMaanooAk%252FQs%252Fmaster%252FQs.js%250A%252F%252F%2520%253D%253D%252FClosureCompiler%253D%253D%250A%250A))
 
 
 ## Usage
