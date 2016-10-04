@@ -132,8 +132,11 @@ function elementFromHtml(text) {
 }
 
 function onEnter(ele, f) {	
-	ele.addEventListener("keyup", function (e) {
-		if (e.keyCode === 13) f();
+	ele.addEventListener("keydown", function (e) {
+		if (e.keyCode === 13) {
+			f();
+			e.preventDefault();
+		}
 	});	
 }
 
