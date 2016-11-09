@@ -57,7 +57,7 @@ function qas(sub, text) {
 
 function ff(l, f) {
 	var count = l.length;
-	for(var i=0; i<count; i+=1) f(l[i]);
+	for(var i = 0; i < count; i += 1) f(l[i]);
 }
 
 function qaff(text, f) {
@@ -69,7 +69,7 @@ function qas(sub, text, f) {
 }
 
 function fif(n, f) {
-	for(var i=0; i<n; i+=1) f(i);
+	for(var i = 0; i < n; i += 1) f(i);
 }
 
 
@@ -83,7 +83,7 @@ function r(method, link, params, callback, callback_error) {
 		if(req.readyState == 4) {
 			if (req.status >= 200 && req.status < 300) {
 				callback(req.responseText, req.status);
-			}else{
+			} else {
 				callback_error(req.responseText, req.status);
 			}
 		}
@@ -91,7 +91,7 @@ function r(method, link, params, callback, callback_error) {
 	
 	var couples = [];
 	for(var i in params) {
-		if(params[i]!="") couples.push(encodeURIComponent(i) + "=" + encodeURIComponent(params[i]));
+		if(params[i] != "") couples.push(encodeURIComponent(i) + "=" + encodeURIComponent(params[i]));
 		else couples.push(encodeURIComponent(i));
 	}
 	var paramstext = couples.join("&");
@@ -101,7 +101,7 @@ function r(method, link, params, callback, callback_error) {
 		req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");	
 		req.send(paramstext);
 	}else{
-		if(paramstext!="") link += "?" + paramstext;	
+		if(paramstext != "") link += "?" + paramstext;	
 		req.open(method, link, true);
 		req.send();
 	}
