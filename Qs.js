@@ -64,7 +64,7 @@ function qaff(text, f) {
 	ff(qa(text), f);
 }
 
-function qas(sub, text, f) {
+function qasff(sub, text, f) {
 	ff(qas(sub, text), f);
 }
 
