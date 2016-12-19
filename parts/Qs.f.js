@@ -1,4 +1,4 @@
-// Foreach call Fuction
+// Foreach
 
 /**
  * A function with one parameter.
