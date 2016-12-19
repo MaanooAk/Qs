@@ -4,19 +4,19 @@
  * An http responce handle callback.
  *
  * @callback responceCallback
- * @param {string} the responce text
- * @param {number} the responce status code
+ * @param {string} text the responce text
+ * @param {number} status the responce status code
  */
 
 /**
  * Sends one http request.
  * Stands for Request.
  *
- * @param {string} the request method: 'POST' or 'GET'
- * @param {string} the http url
- * @param {Object} the request parameters
- * @param {responceCallback} the responce callback
- * @param {responceCallback} the responce callback on error
+ * @param {string} method the request method: 'POST' or 'GET'
+ * @param {string} link the http url
+ * @param {Object} params the request parameters
+ * @param {responceCallback} callback the responce callback
+ * @param {responceCallback} callbackError the responce callback on error
  */
 function r (method, link, params, callback, callbackError) {
   var req = new XMLHttpRequest()
@@ -59,10 +59,10 @@ function r (method, link, params, callback, callbackError) {
  * Sends one http POST request.
  * Stands for RequestPost.
  *
- * @param {string} the http url
- * @param {Object} the request parameters
- * @param {responceCallback} the responce callback
- * @param {responceCallback} the responce callback on error
+ * @param {string} link the http url
+ * @param {Object} params the request parameters
+ * @param {responceCallback} callback the responce callback
+ * @param {responceCallback} callbackError the responce callback on error
  */
 function rp (link, params, callback, callbackError) {
   r('POST', link, params, callback, callbackError)
@@ -72,10 +72,10 @@ function rp (link, params, callback, callbackError) {
  * Sends one http GET request.
  * Stands for RequestGet.
  *
- * @param {string} the http url
- * @param {Object} the request parameters
- * @param {responceCallback} the responce callback
- * @param {responceCallback} the responce callback on error
+ * @param {string} link the http url
+ * @param {Object} params the request parameters
+ * @param {responceCallback} callback the responce callback
+ * @param {responceCallback} callbackError the responce callback on error
  */
 function rg (link, params, callback, callbackError) {
   r('GET', link, params, callback, callbackError)
@@ -85,9 +85,9 @@ function rg (link, params, callback, callbackError) {
  * Sends one http GET request without parameters.
  * Stands for RequestGetRaw.
  *
- * @param {string} the http url
- * @param {responceCallback} the responce callback
- * @param {responceCallback} the responce callback on error
+ * @param {string} link the http url
+ * @param {responceCallback} callback the responce callback
+ * @param {responceCallback} callbackError the responce callback on error
  */
 function rgr (link, callback, callbackError) {
   r('GET', link, {}, callback, callbackError)
