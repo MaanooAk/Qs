@@ -69,7 +69,7 @@ For faster loading you can paste the content of the [Qs.min.js](/Qs.min.js) insi
 </script>
 ```
 
-### Development
+## Development
 
 The files inside `parts/` should be edited.
 
@@ -85,8 +85,9 @@ make docgen
 
 For windows users the `make win` should be used.
 
-## Dependencies
+### Dependencies
 
 - `make`
-- `rm`, `cat`, `curl`
-- `markdox`
+- `rm`, `cat`
+- `curl` ([for windows](https://curl.haxx.se/download.html))
+- `markdox` ([at npm](https://www.npmjs.com/package/markdox))
