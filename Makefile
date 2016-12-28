@@ -1,8 +1,8 @@
 
 # variables
 
-PARTSJS = parts/Qs.q.js parts/Qs.f.js parts/Qs.r.js parts/Qs.o.js
-PARTSJSWIN = parts\Qs.q.js parts\Qs.f.js parts\Qs.r.js parts\Qs.o.js
+PARTSJS = parts/Qs.q.js parts/Qs.f.js parts/Qs.c.js parts/Qs.r.js parts/Qs.o.js
+PARTSJSWIN = parts\Qs.q.js parts\Qs.f.js parts\Qs.c.js parts\Qs.r.js parts\Qs.o.js
 
 # compile
 

@@ -1,3 +1,4 @@
+
 // Classes
 
 /**
@@ -54,4 +55,3 @@ function qascls (sub, text, add, remove) {
     cls(l[i], add, remove)
   }
 }
-
