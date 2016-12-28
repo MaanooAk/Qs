@@ -26,6 +26,12 @@ Qs.js:
 	@echo Combine parts
 	@cat $(PARTSJS) > Qs.js
 
+# doc gen
+
+.PHONY: docgen
+docgen:
+	markdox Qs.js -o API.md
+	
 # windows compatibility
 
 .PHONY: win

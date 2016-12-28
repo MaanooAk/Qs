@@ -5,7 +5,7 @@
 ## qi(id)
 
 Returns an element with a specific id.
-Starts for QueryId.
+Stands for QueryId.
 
 ### Params:
 
@@ -18,7 +18,7 @@ Starts for QueryId.
 ## q(text)
 
 Returns an element that match the specified selectors.
-Starts for Query.
+Stands for Query.
 
 ### Params:
 
@@ -31,7 +31,7 @@ Starts for Query.
 ## qa(text)
 
 Returns all the elements that match the specified selectors.
-Starts for QueryAll.
+Stands for QueryAll.
 
 ### Params:
 
@@ -45,7 +45,7 @@ Starts for QueryAll.
 
 Returns an element that match the specified selectors inside a given parrent
 element.
-Starts for QuerySub.
+Stands for QuerySub.
 
 ### Params:
 
@@ -60,7 +60,7 @@ Starts for QuerySub.
 
 Returns all the elements that match the specified selectors inside a given
 parrent element.
-Starts for QueryAllSub.
+Stands for QueryAllSub.
 
 ### Params:
 
@@ -118,6 +118,41 @@ Stands for ForeachIntegercallFunction.
 
 * **Number** *n* the limit
 * **lambdaOne** *f* the function
+
+## cls(ele, add, remove)
+
+Adds and removes classes from an element.
+Stands for CLaSses.
+
+### Params:
+
+* **Element** *ele* the element
+* **Array.\<string>** *add* the classes to add
+* **Array.\<string>** *remove* the classes to remove
+
+## qacls(text, add, remove)
+
+Adds and removes classes for each element that match the specified selectors.
+Stands for QueryAllCLaSses.
+
+### Params:
+
+* **string** *text* the selectors
+* **Array.\<string>** *add* the classes to add
+* **Array.\<string>** *remove* the classes to remove
+
+## qascls(sub, text, add, remove)
+
+Adds and removes classes for each element that match the specified selectors
+inside a given parrent element.
+Stands for QueryAllSubCLaSses.
+
+### Params:
+
+* **Element** *sub* the parrent element
+* **string** *text* the selectors
+* **Array.\<string>** *add* the classes to add
+* **Array.\<string>** *remove* the classes to remove
 
 An http responce handle callback.
 

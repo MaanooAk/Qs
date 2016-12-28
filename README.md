@@ -19,6 +19,10 @@ For each
  qaff		Query All For each call Function
  qasff		Query All in Sub element For each call Function
  fif		For each Integer from 0 call Function 
+Classes 
+ cls		add and remove CLaSses
+ qacls		Query All For each add and remove CLaSses
+ qascls		Query All in Sub element For each add and remove CLaSses
 Requests 
  r			Request 
  rp			Request Post
@@ -64,3 +68,25 @@ For faster loading you can paste the content of the [Qs.min.js](/Qs.min.js) insi
 <!-- paste here -->
 </script>
 ```
+
+### Development
+
+The files inside `parts/` should be edited.
+
+For the creation of `Qs.js` and `Qs.min.js`:
+```
+make
+```
+
+For the creation of `API.md`:
+```
+make docgen
+```
+
+For windows users the `make win` should be used.
+
+## Dependencies
+
+- `make`
+- `rm`, `cat`, `curl`
+- `markdox`
