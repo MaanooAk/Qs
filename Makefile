@@ -1,6 +1,10 @@
 
+# variables
+
 PARTSJS = parts/Qs.q.js parts/Qs.f.js parts/Qs.r.js parts/Qs.o.js
 PARTSJSWIN = parts\Qs.q.js parts\Qs.f.js parts\Qs.r.js parts\Qs.o.js
+
+# compile
 
 .PHONY: compile
 compile: clean build
@@ -21,6 +25,8 @@ Qs.min.js: Qs.js
 Qs.js:
 	@echo Combine parts
 	@cat $(PARTSJS) > Qs.js
+
+# windows compatibility
 
 .PHONY: win
 win: towin compile
