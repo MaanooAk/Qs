@@ -1,8 +1,9 @@
+
 // Queries
 
 /**
  * Returns an element with a specific id.
- * Starts for QueryId.
+ * Stands for QueryId.
  *
  * @param {string} id the id
  * @return {Element} the element, or null
@@ -13,7 +14,7 @@ function qi (id) {
 
 /**
  * Returns an element that match the specified selectors.
- * Starts for Query.
+ * Stands for Query.
  *
  * @param {string} text the selectors
  * @return {Element} the element, or null
@@ -24,7 +25,7 @@ function q (text) {
 
 /**
  * Returns all the elements that match the specified selectors.
- * Starts for QueryAll.
+ * Stands for QueryAll.
  *
  * @param {string} text the selectors
  * @return {Element[]} the array of the elements
@@ -36,7 +37,7 @@ function qa (text) {
 /**
  * Returns an element that match the specified selectors inside a given parrent
  * element.
- * Starts for QuerySub.
+ * Stands for QuerySub.
  *
  * @param {Element} sub the parrent element
  * @param {string} text the selectors
@@ -49,7 +50,7 @@ function qs (sub, text) {
 /**
  * Returns all the elements that match the specified selectors inside a given
  * parrent element.
- * Starts for QueryAllSub.
+ * Stands for QueryAllSub.
  *
  * @param {Element} sub the parrent element
  * @param {string} text the selectors
