@@ -1,4 +1,5 @@
 # Qs
+
 A light JavaScript function library
 
 [Functions](#functions) | [Files](#files) | [Usage](#usage) | [Qs.min.js raw](https://raw.githubusercontent.com/MaanooAk/Qs/master/Qs.min.js)
@@ -9,30 +10,34 @@ A light JavaScript function library
 
 ```
 Selectors
- q			Query
- qi			Query by Id
- qa			Query All
- qs			Query in Sub element
- qas		Query All in Sub element 
+  q          Query
+  qi         Query by Id
+  qa         Query All
+  qs         Query in Sub element
+  qas        Query All in Sub element
+
 For each 
- ff			For each call Function
- qaff		Query All For each call Function
- qasff		Query All in Sub element For each call Function
- fif		For each Integer from 0 call Function 
+  ff         For each call Function
+  qaff       Query All For each call Function
+  qasff      Query All in Sub element For each call Function
+  fif        For each Integer from 0 call Function
+
 Classes 
- cls		add and remove CLaSses
- qacls		Query All For each add and remove CLaSses
- qascls		Query All in Sub element For each add and remove CLaSses
+  cls        add and remove CLaSses
+  qacls      Query All For each add and remove CLaSses
+  qascls     Query All in Sub element For each add and remove CLaSses
+
 Requests 
- r			Request 
- rp			Request Post
- rg			Request Get
- rgr		Request Get Raw link
+  r          Request 
+  rp         Request Post
+  rg         Request Get
+  rgr        Request Get Raw link
+
 Other
- cloneTemplate
- elementFromHtml
- onEnter
- onScrollNearEnd
+  cloneTemplate
+  elementFromHtml
+  onEnter
+  onScrollNearEnd
  ```
 
 ### Documentation
